@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="angular.min.js"></script>
+    <script src="../angular.min.js"></script>
     <script src="app.js"></script>
     <title>My first AngularJS app</title>
 </head>
 <body>
     <h1>Hello Angular</h1>
     <div ng-controller="MyFirstController">
-        <input type="text" ng-model="name" ng-keyup="calculate();"/>
-        Numeric value of name is: {{totalValue}}
+        <input type="text" ng-model="name"/>
+        Numeric value of name is: {{calculate()}}
     </div>
 </body>
 </html>
