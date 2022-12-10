@@ -30,7 +30,9 @@
         var toBuy = [
             {name: "bags of cookies", quantity: 10}, 
             {name: "bottles of water", quantity: 3}, 
-            {name: "bags of chips", quantity: 2}
+            {name: "bags of chips", quantity: 2},
+            {name: "packs of batteries", quantity: 3},
+            {name: "ballpoint pens", quantity: 3}
         ];
         var bought = [];
 
